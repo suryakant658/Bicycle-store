@@ -1,0 +1,620 @@
+body {
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.445);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  backdrop-filter: blur(44px);
+}
+.logo img {
+  width: 80px;
+  border-radius: 50%;
+}
+ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  color: whitesmoke;
+  font-size: 20px;
+  padding-top: 18px;
+}
+li {
+}
+.form1 {
+  padding-top: 20px;
+  font-size: 20px;
+}
+.form1 input {
+  height: 25px;
+}
+.form1 button {
+  background-color: rgba(0, 0, 0, 0.445);
+  color: red;
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 8px;
+}
+.form1 i {
+  color: white;
+  background-color: red;
+  font-size: 20px;
+}
+.btn-1:hover {
+  background-color: red;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* sec-1 */
+
+.sec-1 {
+  text-align: center;
+
+  background: url(https://websitedemos.net/cycle-shop-02/wp-content/uploads/sites/789/2021/03/bicycle-1.jpg);
+  height: 80vh;
+  color: whitesmoke;
+  margin-top: 130px;
+}
+.text-1 {
+  padding-top: 40px;
+}
+.sec-1 h3 {
+  padding-top: 70px;
+  padding-bottom: 15px;
+  font-size: 25px;
+}
+.sec-1 h2 {
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+.sec-1 h1 {
+  padding-bottom: 15px;
+  font-size: 35px;
+}
+.sec-1 h4 {
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+.sec-1 p {
+  padding-bottom: 15px;
+  font-size: 18px;
+}
+.sec-1 i {
+  color: gold;
+  padding-right: 5px;
+}
+.btn-2 {
+  color: white;
+  background-color: red;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+.btn-2:hover {
+  color: red;
+  background-color: whitesmoke;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* sec-2 */
+
+.sec-2-main {
+  margin-top: 50px;
+  text-align: center;
+}
+.sec-2-main h1 {
+  margin: 20px;
+}
+.border {
+  /* border: 10px solid red; */
+  background-color: red;
+  width: 200px;
+  height: 5px;
+  margin: auto;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+.sec-2 {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.sec-2-card {
+  width: 300px;
+  position: relative;
+}
+.sec-2-card img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+}
+.sec-2-card-sub img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  transition: 0.5s linear;
+}
+.sec-2-card-sub {
+  position: absolute;
+  top: 0;
+  left: 60px;
+}
+.sec-2-card h3 {
+}
+.sec-2-card p {
+  margin-top: 20px;
+}
+.learn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.learn i {
+  font-size: 20px;
+  transition: 0.5s linear;
+  /* position: absolute; */
+}
+.learn h3 {
+  /* position: relative; */
+}
+.learn i:hover {
+  font-size: 20px;
+  transition: 0.5s linear;
+  background-color: gray;
+  width: 50px;
+}
+
+.sec-2-card-sub img:hover {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  transform: rotate(90deg);
+  transform-origin: left;
+  cursor: pointer;
+}
+
+/* sec-3 */
+
+.sec-3-main {
+  margin-top: 50px;
+  text-align: center;
+}
+.sec-3-main h1 {
+  margin: 20px;
+}
+.border-2 {
+  background-color: red;
+  width: 400px;
+  height: 5px;
+  margin: auto;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+.sec-3-card {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.sec-3-img {
+  width: 300px;
+  margin: 20px;
+  transition: 0.3s linear;
+}
+
+.sec-3-img:hover {
+  width: 300px;
+  margin: 20px;
+  transition: 0.3s linear;
+  cursor: pointer;
+  box-shadow: 2px 3px 5px 2px rgba(0, 0, 0, 0.504);
+}
+
+/* sec-4 */
+
+/* .sub-main {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.02582282913165268) 3%,
+    rgba(0, 0, 0, 0.9501925770308123) 71%
+  );
+  padding-top: 300px;
+} */
+
+.sec-4-main {
+  background: url("https://websitedemos.net/cycle-shop-02/wp-content/uploads/sites/789/2021/04/speciality-bike.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.sec-4-text {
+  color: white;
+  padding-top: 400px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+}
+.sec-4-text h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.sec-4-text h1 {
+  font-weight: bold;
+}
+.sec-4-text p {
+  font-size: 20;
+}
+.sec-4-text-list {
+  color: white;
+  padding-left: 100px;
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.sec-4-text-list p {
+}
+.sec-4-text-list i {
+  color: gold;
+}
+.list1 {
+}
+.list2 {
+}
+.btn-3 button {
+  margin-left: 100px;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  margin-top: 20px;
+}
+.btn-3 button:hover {
+  margin-left: 100px;
+  background-color: rgba(255, 0, 0, 0.432);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* sec-5 */
+
+.sec-5-main {
+  background: url("https://websitedemos.net/cycle-shop-02/wp-content/uploads/sites/789/2021/03/bicycle-7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.sec-5-text {
+  color: white;
+  padding-top: 400px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+}
+.sec-5-text h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.sec-5-text h1 {
+  font-weight: bold;
+}
+.sec-5-text p {
+  font-size: 20;
+}
+.sec-5-text-list {
+  color: white;
+  padding-left: 100px;
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.sec-5-text-list p {
+}
+.sec-5-text-list i {
+  color: gold;
+}
+.list1 {
+}
+.list2 {
+}
+.btn-3 button {
+  margin-left: 100px;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  margin-top: 20px;
+}
+.btn-3 button:hover {
+  margin-left: 100px;
+  background-color: rgba(255, 0, 0, 0.432);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* sec-6 */
+
+.sec-6-main {
+  background: url("https://websitedemos.net/cycle-shop-02/wp-content/uploads/sites/789/2021/03/bicycle-5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.sec-6-text {
+  color: white;
+  padding-top: 400px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+}
+.sec-6-text h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.sec-6-text h1 {
+  font-weight: bold;
+}
+.sec-6-text p {
+  font-size: 20;
+}
+.sec-6-text-list {
+  color: white;
+  padding-left: 100px;
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.sec-6-text-list p {
+}
+.sec-6-text-list i {
+  color: gold;
+}
+.list1 {
+}
+.list2 {
+}
+.btn-3 button {
+  margin-left: 100px;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  margin-top: 20px;
+}
+.btn-3 button:hover {
+  margin-left: 100px;
+  background-color: rgba(255, 0, 0, 0.432);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* sec-7 */
+
+.sec-7-main {
+  margin-top: 50px;
+  text-align: center;
+}
+.sec-7-main h1 {
+  margin-top: 20px;
+}
+.sec-7-card {
+}
+.sec-7-card1 {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.sec-7-card1 img {
+  width: 400px;
+  box-shadow: 2px 3px 5px 2px rgba(0, 0, 0, 0.567);
+}
+
+.sec-7-card2 {
+  margin-top: 60px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.sec-7-card2 img {
+  width: 300px;
+}
+
+/* sec-8 */
+
+.sec-8-main {
+  margin-top: 50px;
+  text-align: center;
+}
+.sec-8-main h1 {
+  margin-top: 20px;
+}
+.sec-8-card {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+.sec-8-subcard {
+}
+.sec-8-subcard img {
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+  transition: 0.2s linear;
+}
+.sec-8-subcard p {
+  color: gray;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+.sec-8-subcard h4 {
+  font-weight: bold;
+  padding-bottom: 10px;
+  font-size: 23px;
+}
+.sec-8-subcard i {
+  font-size: 20px;
+  color: gold;
+}
+
+.sec-8-subcard img:hover {
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+  transform: scale(1.1);
+}
+
+/* sec-9 */
+
+.sec-9-main {
+  background: url("	https://websitedemos.net/cycle-shop-02/wp-content/uploads/sites/789/2021/04/speciality-bike.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.sec-9-text {
+  color: white;
+  padding-top: 400px;
+  /* padding-left: 400px;
+  padding-bottom: 20px; */
+  text-align: center;
+}
+.sec-9-text h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.sec-9-text h1 {
+  font-weight: bold;
+}
+.sec-9-text p {
+  font-size: 20;
+}
+.sec-9-text-list {
+  color: white;
+  padding-left: 100px;
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  padding-bottom: 5px;
+  justify-content: center;
+}
+.sec-9-text-list p {
+}
+.sec-9-text-list i {
+  color: gold;
+}
+.list1 {
+}
+.list2 {
+}
+.btn-9 button {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  margin-top: 20px;
+  margin-left: 730px;
+}
+.btn-9 button:hover {
+  background-color: rgba(255, 0, 0, 0.432);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* sec-10 */
+.socials {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  font-size: 30px;
+  background-color: black;
+  padding-bottom: 30px;
+  padding-right: 20px;
+}
+.socials i {
+  color: whitesmoke;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.socials i:hover {
+  border: 1px solid gold;
+  color: gold;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+/* distribution line */
+.line-border {
+  border-bottom: 2px solid white;
+  width: 100%;
+}
+
+/* sec-11 */
+.sec-11-main {
+  display: flex;
+  gap: 50px;
+  background-color: black;
+  color: rgb(199, 191, 191);
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-bottom: 100px;
+  padding-right: 10px;
+}
+
+.about-main {
+  padding-left: 100px;
+}
+.about-main h1 {
+  padding: 10px;
+  font-size: 30px;
+}
+.about-main p {
+  padding-top: 5px;
+  width: 400px;
+}
+.sec-11-main a {
+  color: white;
+  font-size: 20px;
+}
+.sec-11-main .about {
+  padding-left: 100px;
+}
+/* sec-12 */
+
+.sec-12 {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
